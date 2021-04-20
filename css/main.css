@@ -59,10 +59,20 @@ h4 {
     margin: 0;
 }
 
-#circle-container {
-    display: flex;
+/*#circle-container {*/
+/*    display: flex;*/
+/*}*/
+
+.circle-container {
+    flex-wrap: wrap;
+    margin: auto;
 }
 
+@media screen and (max-width: 575px) {
+    .circle-container {
+        width: 250px;
+    }
+}
 
 .design {
     background-color: var(--design-color);
