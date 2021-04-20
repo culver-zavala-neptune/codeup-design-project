@@ -11,11 +11,16 @@
 }
 
 * {
-    background-color: #F0F0F0;
+    box-sizing: border-box;
 }
-#title{
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F0F0F0;
     font-family: 'Abel', sans-serif;
 }
+
 .circle {
     border-radius: 50%;
     border: 5px solid white;
@@ -77,5 +82,13 @@ h4 {
 .host {
     background-color: var(--host-color);
     color: white;
+}
+
+img {
+    margin: auto;
+    width: 90%;
+    border: solid .7em #E6E6E6;
+    border-radius: 2%;
+
 }
 
