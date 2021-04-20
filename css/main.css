@@ -16,14 +16,14 @@
 #title{
     font-family: 'Abel', sans-serif;
 }
-/*#circle {*/
-/*    background: lightblue;*/
-/*    border-radius: 50%;*/
-/*    width: 100px;*/
-/*    height: 100px;*/
-/*}*/
+#circle {
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 105px;
+    height: 105px;
+}
 
-#heading{
+.heading{
     font-family: 'Anton', sans-serif;
 }
 
@@ -40,5 +40,37 @@ h1{
     font-size: 64px;
 }
 
+.location {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
 
+h2 {
+    font-size: 48px;
+}
+
+h4 {
+    background: transparent;
+    margin: 0;
+}
+
+.design {
+    background-color: var(--design-color);
+    color: white;
+}
+
+.develop {
+    background-color: var(--develop-color);
+    color: white;
+}
+
+.support {
+    background-color: var(--support-color);
+    color: white;
+}
+
+.host {
+    background-color: var(--host-color);
+    color: white;
+}
 
