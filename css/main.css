@@ -28,6 +28,13 @@ body {
     height: 105px;
 }
 
+.dots {
+      border-radius: 50%;
+      /*border: 5px solid white;*/
+      width: 18px;
+      height: 18px;
+  }
+
 .heading{
     font-family: 'Anton', sans-serif;
 }
@@ -57,6 +64,10 @@ h2 {
 h4 {
     background: transparent;
     margin: 0;
+}
+
+.small-text {
+    font-size: 10px;
 }
 
 /*#circle-container {*/
@@ -94,11 +105,31 @@ h4 {
     color: white;
 }
 
+.des-dot {
+    background-color: var(--design-color);
+    color: black;
+}
+
+.dev-dot {
+    background-color: var(--develop-color);
+    color: black;
+}
+
+.sup-dot {
+    background-color: var(--support-color);
+    color: black;
+}
+
+.host-dot {
+    background-color: var(--host-color);
+    color: black;
+}
+
 img {
-    margin: auto;
-    width: 90%;
+    /*margin: aut;*/
+    width: 100%;
     border: solid .7em #E6E6E6;
     border-radius: 2%;
-
+    margin-bottom: 1em;
 }
 
