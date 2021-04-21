@@ -77,11 +77,14 @@ h4 {
 .circle-container {
     flex-wrap: wrap;
     margin: auto;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 1em;
 }
 
 @media screen and (max-width: 575px) {
     .circle-container {
         width: 250px;
+        border-bottom: none;
     }
 }
 
@@ -133,3 +136,6 @@ img {
     margin-bottom: 1em;
 }
 
+.project-padding {
+    margin: 2em;
+}
