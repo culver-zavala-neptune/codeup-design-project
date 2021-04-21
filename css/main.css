@@ -144,3 +144,9 @@ img {
 .project-padding {
     margin-bottom: 2em;
 }
+
+#last-img {
+    border: solid .2em #E6E6E6;
+    width: 4em;
+    height: 4em;
+}
