@@ -21,6 +21,14 @@ body {
     font-family: 'Abel', sans-serif;
 }
 
+#logo{
+    height: 105px;
+    width: 105px;
+    border: none;
+    margin-bottom: 0;
+
+}
+
 .circle {
     border-radius: 50%;
     border: 5px solid white;
